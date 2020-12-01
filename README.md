@@ -1,2 +1,2 @@
-# aoc2019
+# aoc
 solutions
