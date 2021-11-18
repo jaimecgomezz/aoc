@@ -1,10 +1,7 @@
-```text
 aoc
 ==================================================
-Solutions for the [aoc](https://adventofcode.com)
-challenges
+Solutions for the Advent of Code challenges
 
 languages
 --------------------------------------------------
-  - rust
-```
+rust
