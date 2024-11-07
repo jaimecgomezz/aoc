@@ -12,9 +12,11 @@
 # reverse the order of the marks within it. After doing this many times, the
 # order of the marks is used to build the resulting hash.
 #
-#   4--5   pinch   4  5           4   1 /    \  5,0,1  / \/ \  twist  / \ / \ 3
-#   0  -->  3      0  -->  3   X   0 \    /         \ /\ /         \ / \ / 2--1
-#   2  1           2   5
+#   4--5   pinch   4  5           4   1
+#  /    \  5,0,1  / \/ \  twist  / \ / \
+# 3      0  -->  3      0  -->  3   X   0
+#  \    /         \ /\ /         \ / \ /
+#   2--1           2  1           2   5
 #
 # To achieve this, begin with a list of numbers from 0 to 255, a current
 # position which begins at 0 (the first element in the list), a skip size (which
